@@ -1,0 +1,88 @@
+ body{
+    margin: 0px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    font-size: 21px;
+ }
+.acueil{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 2vh solid blue; */
+    height: 100vh;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+#start{
+    padding: 5vh;
+    margin: 80vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    font-size: 20px;
+    background-color: rgb(105, 105, 105);
+    border: none;
+    border-radius: 10px;
+}
+#start:hover{
+    background-color:rgb(77, 75, 75);
+}
+
+button{
+    padding: 30px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    border: none;
+    font-size: 20px;
+    border-radius: 2vh;
+    background-color: rgb(105, 105, 105);
+}
+button:hover{
+    background-color:rgb(77, 75, 75);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.good{
+    background-color: green;
+}
+.good:hover{
+    background-color: rgb(21, 71, 43);
+}
+
+.bads{
+    background-color: red;
+}
+.bads:hover{
+    background-color: rgb(121, 5, 5);
+}
+
+
+
+.principale{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+.bas{
+    margin-top: 2vh;
+}
+#next{
+    visibility: hidden;
+    background-color: rgb(105, 105, 105);
+}
+#next:hover{
+    background-color: rgb(77, 75, 75);
+}
